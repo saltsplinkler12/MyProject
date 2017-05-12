@@ -1,0 +1,87 @@
+#social-nav{
+  display: inline-block;
+  margin-top: -40px;
+  padding: 20px 39px 40px;
+  width: 200px
+}
+
+#social-nav ul {
+	display: inline-block;
+	width: 24%;
+	background-color: red;
+	margin-left: -50px;
+}
+#social-nav ul li{
+	display: inline-block;
+    margin: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    list-style: none;
+}
+#button { 
+	padding: 0; 
+  margin-top: -0px; 
+  margin-left: 400px;
+  display: inline-block;
+  background-color: red;
+
+
+     }
+#button li {
+       display:block;
+      -moz-border-radius-topleft: 12px;
+      -webkit-border-top-left-radius:12px;
+      margin:20px 30px;
+      width: 0;
+      }
+#button li a {
+ font-family: Arial;
+ font-size:14px;
+ text-align: center;
+ text-decoration: none;
+   float:left;
+   width:200px;
+   height:20px;
+   padding: 10px;
+   color: #fff;
+      background-color: black;
+}
+#button li:first-child a{
+    -moz-border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px;
+}
+#button li a:hover {
+       background-color: #2586d7;
+ /*	margin-top:-3px;*/
+       color:#FFF;
+ /*	padding-bottom:12px;*/
+     /*-moz-box-shadow: 0 -5px 10px #777; -webkit-box-shadow: 0 -5px 10px #777;*/
+   /*Transition*/
+     -webkit-transition: All 0.5s ease;
+     -moz-transition: All 0.5s ease;
+     -o-transition: All 0.5s ease;
+     -ms-transition: All 0.5s ease;
+     transition: All 0.5s ease;
+/*Gradient*/
+background-image: linear-gradient(bottom, rgb(211,191,230) 20%, rgb(210,128,214) 86%);
+background-image: -o-linear-gradient(bottom, rgb(211,191,230) 20%, rgb(210,128,214) 86%);
+background-image: -moz-linear-gradient(bottom, rgb(211,191,230) 20%, rgb(210,128,214) 86%);
+background-image: -webkit-linear-gradient(bottom, rgb(211,191,230) 20%, rgb(210,128,214) 86%);
+background-image: -ms-linear-gradient(bottom, rgb(211,191,230) 20%, rgb(210,128,214) 86%);
+}
+   
+
+
+main{
+	font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+	background-color: blue;
+	display: inline-block;
+
+}
+body{
+  display: inline-block;
+  background-color: yellow; 
+}
